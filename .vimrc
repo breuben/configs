@@ -1,3 +1,5 @@
+set nocompatible
+
 syntax on			" Turn on syntax highlighting
 set tabstop=4
 set shiftwidth=4	" Indent width for autoindent
@@ -17,6 +19,8 @@ if has('gui_running')
 
 	if has("win32") || has("win64")
 		set guifont=Consolas:h10
+	else
+		set guifont=Monospace\ 9
 	endif
 endif
 
