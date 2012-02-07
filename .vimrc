@@ -8,6 +8,7 @@ set ignorecase		" Case insensitve searches
 set hlsearch		" Highlight search results
 set incsearch		" Incremental search
 set smartcase		" Ignore case when all lowercase
+set encoding=utf-8
 
 " Don't jump over text-wrapped lines
 map j gj
