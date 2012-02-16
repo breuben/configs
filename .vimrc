@@ -20,6 +20,7 @@ if has('gui_running')
 
 	if has("win32") || has("win64")
 		set guifont=Consolas:h10
+		set guifontwide=MingLiU:h10
 	else
 		set guifont=Monospace\ 9
 	endif
